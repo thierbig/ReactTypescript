@@ -1,0 +1,65 @@
+.box-message
+{
+    border-bottom:3px; 
+    border-bottom-style:double; 
+    border-bottom-color:#a8aeb7; 
+
+    border-left:1px; 
+    border-left-style:solid; 
+    border-left-color:#050505;
+
+    border-right:1px; 
+    border-right-style:solid; 
+    border-right-color:#050505;
+    padding: 1em;
+    width:350px;
+    font-size: 20px;
+    
+    
+    text-align: left;
+}
+
+a:hover.box-communique-top-text
+{
+    color: white;
+    text-decoration: none;    
+}
+
+.box-communique-top-text
+{
+    color: white;
+    text-decoration: none;    
+}
+
+.box-communique-bottom-text
+{    
+    text-align: center;
+}
+
+.icone
+{
+    height: 20px;
+    width: 20px;
+}
+
+.box-communique-top
+{
+    border:3px; 
+    border-style:solid; 
+    border-color:#003399;
+    padding: 1em;
+    width:350px;
+    font-size: 20px;
+    position: relative;
+
+    background-color: #003399;
+
+    text-align: center;
+}
+
+.box-message-bottom
+{
+    border-bottom:1px; 
+    border-bottom-style:solid; 
+    border-bottom-color:#050505;
+}

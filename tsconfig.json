@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "module": "es6",
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports":true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "baseUrl": ".",
+    "watch": true,
+    "allowJs": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@microsoft"
+    ],
+    "types": [
+      "es6-promise",
+      "es6-collections",
+      "webpack-env",
+      "microsoft-ajax",
+      "sharepoint"
+    ]
+  },"compileOnSave": true,
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest"
+  ]
+}

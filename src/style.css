@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;  
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  overflow-x:hidden;
+}
+
+@media print{
+	.non-imprimable{
+		display:none;
+  }
+  
+  body{
+    overflow-y: visible;
+  }
+}
+
+.impression body{
+  overflow-y: visible;
+}
+
+.impression{
+  overflow:visible !important;
+  position: relative;
+  height: unset !important;
+}
+
+.impression .modal-dialog{
+  width: 100% !important;
+  margin:5px !important;
+}
+
+/* .impression .tgrid-body-table{
+  display: block !important;
+}
+
+.impression .tgrid-body-table tbody{
+  display: block !important;
+} */
+
+.impression .modal-content{
+  position: relative;
+  height: unset !important;
+}
+
+.impression .tgrid-body-wrapper{
+  overflow: auto;
+}
+
+.impression .tgrid-span{
+  float: unset !important;
+  display:block;
+  max-width: 400px;
+  white-space: normal;
+}
+
+.impression .tgrid-body-table table{
+  page-break-inside: auto;
+}
+
+.impression .tgrid-body-table tr{
+  page-break-inside: avoid !important;
+  page-break-after: auto;
+  page-break-before: auto;
+}

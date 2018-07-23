@@ -1,0 +1,95 @@
+.nav-box
+        {
+                border:1px;
+                border-style:solid;
+                border-color:gray;
+                height: 50px;
+                width: 123.5px;
+                padding: 1em;
+                font-size: 14.5px;
+                font-weight: bold;                          
+                color: black;     
+                
+                background: -moz-linear-gradient(top, #d1d1d1 3%, #d1d1d1 8%, #d1d1d1 12%, #d1d1d1 17%, #d1d1d1 22%, #e2e2e2 42%, #fefefe 65%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, #d1d1d1 3%,#d1d1d1 8%,#d1d1d1 12%,#d1d1d1 17%,#d1d1d1 22%,#e2e2e2 42%,#fefefe 65%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom, #d1d1d1 3%,#d1d1d1 8%,#d1d1d1 12%,#d1d1d1 17%,#d1d1d1 22%,#e2e2e2 42%,#fefefe 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                
+                display: -ms-flex !important; display: -webkit-flex !important; display: flex !important;
+
+                
+        }
+
+.nav-box>a
+{
+        flex:1 !important;
+}
+
+.nav-box-vide
+{
+                border:none !important;
+                background: none !important;
+
+}
+.nav-box-selected
+{
+        background: #003399 !important;        
+}
+.navbar,
+.navbar-default {
+    background-image: none !important;
+    background-color: white !important;
+    box-shadow: none !important;
+    border-radius: none !important;
+    border: none !important;
+    margin-bottom: 0px !important;
+    top:0px !important;
+}
+
+.multiline-2
+{        
+        position: absolute;
+        right: -10%;
+        padding-bottom: 0px;
+        top: 30%;
+}
+
+.multiline-1
+{       
+        position: absolute;
+        bottom: 1%;
+}
+
+.white-text
+{
+        color: white !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:black !important;
+    text-shadow: none !important;
+    padding-top: 0px !important;
+    padding-bottom: none !important;
+    padding: none !important;    
+}
+.nav-banderole
+        {
+                border:3px; 
+                border-style:solid;
+                border-color:#003399;
+                padding: 1em;
+                font-size: 20px;
+                width: 865px;
+                position: relative;
+                color: white;        
+                background-color: #003399;
+
+                text-align: center;         
+        }
+
+
+
+.container
+{
+        padding-left: 0px !important;
+        top:50px !important;
+}

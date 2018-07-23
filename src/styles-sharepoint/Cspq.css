@@ -1,0 +1,84 @@
+#pageTitle {
+  display:none;
+}
+
+.ms-breadcrumb-top {
+  display:none;
+}
+
+#menu {
+    margin-left: 367px;
+    margin-top: -10px;
+}
+
+#menuBreadcrumb {
+    margin-left: 224px;
+    margin-top: 61px;
+}
+
+#menuBreadcrumb ul {
+    padding-left:0px;
+}
+
+.ms-breadcrumb-dropdownBox {
+    margin-top: -5px;
+}
+
+#title a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.menuBouton {
+    background-image: url('https://imghost.io/images/2018/07/13/bouton.png');
+    width: 168px;
+    float: left;
+    height: 52px;
+    margin-top : 55px;
+}
+
+.menuBouton:hover {
+    color:white;
+    background-image: url('../media/onbouton.png');
+}
+
+.menuBouton a {
+    text-decoration: none;
+    color: navy;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    position: absolute;
+    height: 55px;
+    margin-top: 20px;
+    text-align:center;
+    width: 163px;
+}
+
+.deuxLigne a {
+    margin-top: 10px;
+}
+
+#s4-bodyContainer {
+    padding-top: 10px;
+    padding-bottom :8px;
+    min-height: 270px;
+    background-image: url("https://imghost.io/images/2018/07/13/header.jpg");
+    background-position: center center;
+    vertical-align: middle;
+    margin-bottom : 35px;
+}
+
+#title h1 {
+  text-align:center;
+  margin-top:95px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+}
+
+.ms-srch-sb {
+  background-color:white;
+}
